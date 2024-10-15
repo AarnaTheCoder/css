@@ -11,6 +11,11 @@ body {
     /* first lesson*/
     
     background-color: brown;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+
     
     }
     
@@ -22,13 +27,16 @@ body {
     position: sticky;
     top: 0;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
     
     #intro {
     
     /* first lesson*/
     
-    background-color: lightpink;
+    background-color: rgb(243, 200, 206);
     
     }
     
@@ -37,6 +45,7 @@ body {
     /* first lesson*/
     
     background-color: darkkhaki;
+    display: flex;
     
     }
     
@@ -132,6 +141,7 @@ body {
     /* first lesson*/
     
     color: red;
+
     
     }
     
@@ -170,6 +180,7 @@ body {
         margin: 10px;
         text-align: center;
         box-shadow:5px 5px 5px 5px black  ;
+
         
     }
     h1{
@@ -180,6 +191,7 @@ body {
         border-radius: 5px;
         margin: 10px;
         padding: 12px;
+
     }
     h3{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -213,7 +225,9 @@ body {
         margin: 10px;
         padding: 50px;
         box-shadow:5px 10px 30px 10px rgb(212, 168, 168)  ;
-
+       display:flex;
+        align-items: center;
+        justify-content: flex-end;
     }
     h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -233,3 +247,18 @@ body {
         opacity: 0.9;
 
     }
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+ }
+   #teachers{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+   }
+ nav ul{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+ }
